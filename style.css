@@ -1,0 +1,60 @@
+body {
+    color: rgb(255, 255, 255);
+    background: black; 
+    margin: 0px;
+    font-family: "Agdasima", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px red;
+    padding:35px;
+    font-size: 55px;
+    color: red;
+}
+
+.chamada {
+    background: rgb(209, 182, 239);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.categoria-trailers {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+.categoria {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+}
+
+.categoria-trailers img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-trailers img:hover {
+    opacity: 1.0;
+    border: 1px solid white; 
+}
+
+.categoria h2 {
+    color: rgb(239, 22, 22);
+}
